@@ -1,0 +1,617 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Odibee+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Odibee+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shadows+Into+Light&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  
+ 
+}
+span{
+    font-weight: 1;
+     font-family: "Cormorant Infant", serif;;
+}
+.img1{
+    position: relative;
+   bottom:155px;
+   right:170px;
+   left:-110px;
+    width:140px;
+    height:120px;
+}
+.sec1{
+
+    background-color: rgb(31, 28, 28);
+    height:95px;
+}
+.container {
+  position:relative;
+  top:30px;
+   margin-right: 70px;
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+  }
+  li{
+   margin-left:30px;
+  }
+  ul a:hover{
+    color:red;
+  }
+  a{
+    text-decoration: none;
+    color:white;
+  }
+  .btn1{
+    background-color:rgb(31, 28, 28) ;
+    color: white;
+    width:120px;
+    border-radius: 22px;
+    padding: 10px;
+    height:45px;
+    margin-left: 30px;
+   position:relative;
+   bottom:20px;
+  }
+  .btn2{
+    background-color:red ;
+    border-color: red;
+    width:120px;
+    color: white;
+    border-radius: 22px;
+    padding: 10px;
+    height:45px;
+    margin-left: 30px;
+   position:relative;
+   bottom:20px;
+  }
+  .sec2 {
+    background-color: black;
+    height: 450px;
+    background-image: url(https://static.tossdown.com/images/0d89df29-7038-435f-99a1-3d911db72bc6.webp); /* Add the image path here */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sec3{
+    background-color: black;
+    color: white;
+    height: 450px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+.two{
+    font-size: 50px;
+    font-weight: 1000; 
+}
+.one,.two{
+   position: relative;
+   top:50px;
+    display:inline;
+}
+.three{
+    position: relative;
+    top:60px;  
+}
+.forspace,.three{
+  
+    line-height: 2rem;
+}
+.para1{
+    position: relative;
+    top:70px;   
+}
+
+img{
+   width:200px;
+   height:130px; 
+   border-radius: 5px;
+   margin-top:100px;
+   margin-left:20px;
+}
+ .container1{
+    display: flex;
+    justify-content: center;
+ }
+button{
+    background-color:black ;
+    color: white;
+    width:140px;
+    border-radius: 22px;
+    padding: 10px;
+    height:45px;
+    margin-top: 10px;
+    border-width: 1px;
+}
+.btn3{
+   position: relative;
+   right:75px;
+}
+.btn4{
+    position: relative;
+    left:10px;
+}
+.btn5{
+    position: relative;
+  left:88px;
+}
+button:hover{
+    width:140px;
+    border:ridge red 2px;
+    font-weight: bold;
+   color: red;
+}
+.nhiarraha:hover{
+    border:solid red 1px;
+   color: red;
+}
+.sec4{
+
+    background-color: rgb(16, 16, 16);
+    height:850px;
+}
+.sec4{
+    background-color: rgb(21, 20, 20);
+    color: white;
+    height: 1050px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+   
+}
+.head{
+    
+    font-size: 50px;
+    font-weight: 1000;
+    position: relative;
+    top:20px;
+}
+.head1{
+    margin-top:8px;
+}
+.head2{
+    margin-top:8px;
+}
+.hsix{
+    color:red ;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 8px;
+    margin-bottom: 10px;
+    margin-right: 180px;
+}
+.bold{
+    font-weight: 900;
+    margin-right: 30px;
+}
+h3{
+   
+  font-size: 30px;
+  font-weight: 100;
+}
+.left{
+    margin:30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right:300px;
+}
+#id2{
+    margin-top: 30px;
+    margin-right: 80px;
+}
+#id1{
+    margin-right: 220px;
+}
+.p1{
+    margin-top:15px;
+}
+.right{
+display: flex;
+justify-content: right;
+}
+.img2{
+width: 450px;
+height:250px ;
+position: relative;
+left:250px;
+bottom:290px;
+   
+}
+p{
+    color: rgb(175, 169, 169);
+}
+.btn6{
+ width:140px;
+ height: 40px;
+ position:relative;
+ top:20px;
+ right:100px;
+}
+.lft{
+    display: flex;
+    justify-content: left;
+}
+.img3{
+    width: 450px;
+    height:250px ;
+    position: relative;
+    left:30px;
+    bottom:320px;
+}
+.rgt{
+    display: flex;
+justify-content: right;
+position: relative;
+left:200px;
+bottom:560px;
+flex-direction: column;
+}
+.hsix1{
+    color:red ;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 8px;
+    margin-bottom: 10px;
+    margin-right: 170px;
+}
+.bold1{
+    font-weight: 900;
+    margin-right: 30px;
+}
+
+#id21{
+    margin-top: 30px;
+    margin-right: 170px;
+}
+#id11{
+    margin-right: 220px;
+}
+.p11{
+    margin-top:15px;
+}
+.btn7{
+ width:140px;
+ height: 40px;
+ position:relative;
+ top:20px;
+ right:100px;
+}
+
+.hsix2{
+    color:red ;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 8px;
+    margin-bottom: 10px;
+    margin-right: 190px;
+}
+.bold2{
+    font-weight: 900;
+    margin-right: 60px;
+}
+h3{
+   
+  font-size: 30px;
+  font-weight: 100;
+}
+.lft2{
+    margin:30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right:300px;
+}
+#id22{
+    margin-top: 30px;
+    margin-right: 100px;
+}
+#id12{
+    margin-right: 260px;
+}
+.p12{
+    margin-top:15px;
+}
+.rgt2{
+display: flex;
+justify-content: right;
+}
+.img4{
+width: 450px;
+height:250px ;
+position: relative;
+left:258px;
+bottom:305px;
+   
+}
+p{
+    color: rgb(175, 169, 169);
+    font-size:11px;
+}
+.btn8{
+ width:140px;
+ height: 40px;
+ position:relative;
+ top:20px;
+ right:125px;
+}
+.main1{
+    position: relative;
+    bottom:550px;
+}
+
+.a{
+    
+    font-size: 50px;
+    font-weight: 1000;
+    position: relative;
+    top:20px;
+}
+.b{
+    margin-top:8px;
+}
+.sec5{
+    background-color: black;
+    color: white;
+    height: 1900px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+.box{
+/*    
+    border:white solid 2px; */
+    line-height: 35px;
+    
+}
+.all{
+    width: 300px;
+    height: 200px;
+
+}
+.main-container1{
+    display:flex;
+    justify-content: center;
+    position: relative;
+    bottom:70px;
+}
+.main-container2{
+    display:flex;
+    justify-content: center;
+    position: relative;
+    right:1px;
+    bottom:150px;
+}
+.main-container3{
+    display:flex;
+    justify-content: center;
+    position: relative;
+    right:35px;
+    bottom:230px;
+}
+
+.seven{
+    position: relative;
+   left:35px;
+}
+.bahria{
+margin-left: 40px;
+}
+.bh{
+    margin-left: 40px;
+}
+.bhp1{
+    margin-left: 40px;
+}
+.bhp2,.but{
+    margin-left: 40px;
+}
+.main-container4{
+    display:flex;
+    justify-content: center;
+    position: relative;
+    right:35px;
+    bottom:310px;
+}
+.red{
+    color: red;
+    font-size: 13px;
+    letter-spacing: 7px;
+}
+.sec6{
+    background-color:  rgb(31, 28, 28);
+    color: white;
+    height: 530px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+.a1{
+    
+    font-size: 50px;
+    font-weight: 1000;
+    position: relative;
+    top:20px;
+}
+.b1{
+    margin-top:8px;
+    font-size: 30px;
+}
+.imgd{
+    float:left;
+
+}
+.last{
+    width:500px;
+    height: 300px;
+}
+.overall{
+    text-align: left;
+    margin-left: 20px;
+    float: left;
+    position: relative;
+    top:140px;
+    line-height: 35px;
+}
+.colgreen{
+    color:white;
+    background-color: rgb(34, 162, 42);
+}
+.colgreen:hover{
+    color: white;
+    font-weight: bold;
+    border:ridge white 2px;
+}
+.bd{
+    font-size: 30px;
+}
+.main{
+    position: relative;
+    bottom:70px;
+}
+
+.sec7{
+    background-color:  black;
+    color: white;
+    height: 1250px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+.sec8{
+    background-color: rgb(31, 28, 28);
+    color: white;
+    height: 1000px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+.jaanchuti{
+    width:150px;
+    height: 100px;
+  
+}
+.final{
+
+display: flex;
+justify-content: left;
+}
+.boxa{
+    margin-left:10px;
+    border:black solid 1px;
+    width:300px;
+    height:200px;
+    background-color: white;
+}
+
+.boxb{
+    margin-left:10px;
+    border:black solid 1px;
+    width:300px;
+    height:200px;
+    background-color: white;
+}
+
+.boxc{
+    margin-left:8px;
+    border:black solid 1px;
+    width:300px;
+    height:200px;
+    background-color: white;
+}
+#icon{
+    margin-top:30px;
+    font-size: 30px;
+
+}
+.containera{
+    margin-top:40px;
+    display:flex;
+    padding-left:45px;
+}
+.containerb{
+    margin-top:40px;
+    display:flex;
+    padding-left:357px;
+}
+
+
+.lal{
+    margin-top:20px;
+    margin-bottom: 10px;
+    color:red;
+    font-weight: 1;
+    letter-spacing: 5px;
+}
+.kala{
+    margin-bottom: 7px;
+    color:black;
+    font-size: 20px;
+
+}
+.fi{
+    display:flex;
+    position: relative;
+    bottom:50px;
+}
+.l{
+    width:187px;
+    height:187px;
+}
+
+.so{
+    margin-top:40px;
+    font-size: 30px;
+}
+.titu{
+  
+    padding:20px;
+    width:350px;
+    height:400px;
+    position: relative;
+    bottom:90px;
+}
+.pipu{
+    margin-left:11px;
+    text-align: left;
+}
+.imi{
+    
+    margin-right:400px;
+    width:150px;
+    height:120px;
+}
+.titu1{
+    position: relative;
+    right:120px;
+    bottom:350px;
+line-height: 32px;
+}
+.titu2{
+   text-align: left;
+    position: relative;
+    left:520px;
+    bottom:543px;
+    line-height: 32px;
+}
+#big{
+    font-size: 25px;
+}
+.titu3{
+    text-align: left;
+    position: relative;
+    left:870px;
+    bottom:900px;
+    line-height: 32px;
+}#ic{
+    float:left;
+    font-size: 25px;
+}
+.bld{
+ font-size: 12px;
+ font-weight: 900;
+}
